@@ -1,6 +1,27 @@
-#> Environment Section
-# Docker environment
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# Environment variables
 .env
+
+# All editor configs but vscode
+.editorconfig
+.idea
+
+# Dependencies
+/node_modules
+package-lock.json
+
+# MDB
+mdbreact-*
+
+# Testing
+/coverage
+
+# Production
+/build
+
+# Logs
+*.log*
 
 # SPDX-License-Identifier: (EUPL-1.2)
 # Copyright © 2018 Florian Kleber
