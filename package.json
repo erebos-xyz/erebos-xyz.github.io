@@ -2,15 +2,22 @@
   "name": "react-esite",
   "version": "0.1.0",
   "private": true,
+  "license": "(EUPL-1.2)",
   "dependencies": {
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "react-scripts": "1.1.4"
+    "react-scripts": "^1.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kleberbaum/react-esite.git"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
   }
 }
