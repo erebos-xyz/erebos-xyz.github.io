@@ -4,6 +4,7 @@
   "private": true,
   "license": "(EUPL-1.2)",
   "dependencies": {
+    "mdbreact": "^4.5.0",
     "react-router-dom": "^4.0.0",
     "react-scripts": "^1.1.4"
   },
