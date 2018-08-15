@@ -3,8 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "license": "(EUPL-1.2)",
+  "homepage": ".",
   "dependencies": {
     "mdbreact": "^4.5.0",
+    "gh-pages": "^1.2.0",
+    "node-sass": "^4.9.0",
     "react-router-dom": "^4.0.0",
     "react-scripts": "^1.1.4"
   },
@@ -16,6 +19,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
