@@ -19,3 +19,8 @@ class App extends Component {
 }
 
 export default App;
+
+/**
+ * SPDX-License-Identifier: (EUPL-1.2)
+ * Copyright © 2018-2019 Florian Kleber
+ */

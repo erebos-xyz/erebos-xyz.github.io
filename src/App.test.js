@@ -7,3 +7,8 @@ it("renders without crashing", () => {
   ReactDOM.render(<App />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
+
+/**
+ * SPDX-License-Identifier: (EUPL-1.2)
+ * Copyright © 2018-2019 Florian Kleber
+ */
