@@ -9,7 +9,7 @@ import { BrowserRouter as Router } from "react-router-dom";
  * Footer: Global Footer
  * Navbar: Global navigation bar
  */
-import { Footer, Navbar } from "./components/organisms";
+import { FooterGlobal, NavbarGlobal } from "./components/organisms";
 // Routes
 import Routes from "./Routes";
 
@@ -18,11 +18,11 @@ class App extends React.Component {
     return (
       <Router>
         <div className="flyout">
-          <Navbar />
-          <main style={{ marginTop: "4rem" }}>
+          <NavbarGlobal />
+          <main>
             <Routes />
           </main>
-          <Footer />
+          <FooterGlobal />
         </div>
       </Router>
     );
