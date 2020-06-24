@@ -1,3 +1,18 @@
+/*var*************************************************************************/
+
+$navtop: calc(32.1px + 1em);
+$full-c: rgba(0, 0, 0, 0.63);
+$full-h: calc(100vh - 32.1px - 1em);
+$banner-c: rgba(255, 255, 255, 0.9);
+$about-c: $full-c;
+$about-bc: rgba(168, 0, 0, 0.63);
+$about-bbc: rgb(42, 42, 42);
+$about-tc: rgba(6, 85, 177, 0.63);
+$about-tobc: rgb(255, 255, 255);
+$about-toc: rgba(255, 255, 255, 0.17);
+$about-h: calc(100vh - 271px - 1em);
+$about-min-h: 750px;
+
 $agencyDark: #212529;
 $agencyRed: #f61a42;
 
