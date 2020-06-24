@@ -8,13 +8,13 @@ import { Route, Switch } from "react-router-dom";
 /**
  * HomePage: A basic template page
  */
-import { HomePage } from "./components/pages";
+import { PageRoot } from "./components/pages";
 
 class Routes extends React.Component {
   render() {
     return (
       <Switch>
-        <Route exact path="/" component={HomePage} />
+        <Route exact path="/" component={PageRoot} />
 
         <Route
           render={function () {

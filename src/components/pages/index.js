@@ -1,8 +1,8 @@
 //> Components
 // Import all components to export them for easy access from parent components
-import HomePage from "./HomePage";
+import PageRoot from "./PageRoot";
 
-export { HomePage };
+export { PageRoot };
 
 /**
  * SPDX-License-Identifier: (EUPL-1.2)
