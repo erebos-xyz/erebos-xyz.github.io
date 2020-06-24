@@ -22,11 +22,19 @@ import "./index.scss";
 //> Components
 // Root component
 import App from "./App";
+//> Additional libraries
+// Parallax Provider
+import { ParallaxProvider } from "react-scroll-parallax";
 
 import registerServiceWorker from "./registerServiceWorker";
 
 // Render the root component to <div id="root"></div>
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(
+  <ParallaxProvider>
+    <App />
+  </ParallaxProvider>,
+  document.getElementById("root")
+);
 
 registerServiceWorker();
 
