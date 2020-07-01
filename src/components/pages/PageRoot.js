@@ -12,6 +12,10 @@ import { MDBFreeBird, MDBCol, MDBRow, MDBCardBody, MDBIcon } from "mdbreact";
  */
 import { SectionContainer } from "../molecules";
 
+import {
+  AboutPage,
+} from "../organisms";
+
 //> Images
 // Logo of React
 import ReactLogo from "../../assets/content/React-icon.svg";
@@ -21,6 +25,7 @@ class PageRoot extends React.Component {
   render() {
     return (
       <>
+        <AboutPage/>
         <SectionContainer noBorder noBottom>
           <MDBFreeBird className="mt-3 mb-5">
             <MDBRow>
