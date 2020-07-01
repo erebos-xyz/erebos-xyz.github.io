@@ -15,6 +15,7 @@ import { SectionContainer } from "../molecules";
 import {
   SectionMotd,
   AboutPage,
+  SectionSharingan,
   SectionCommunity,
 } from "../organisms";
 
@@ -29,6 +30,7 @@ class PageRoot extends React.Component {
       <>
         <AboutPage/>
         <SectionMotd/>
+        <SectionSharingan />
         <SectionCommunity />
         <SectionContainer noBorder noBottom>
           <MDBFreeBird className="mt-3 mb-5">
