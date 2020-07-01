@@ -14,6 +14,7 @@ import { SectionContainer } from "../molecules";
 
 import {
   AboutPage,
+  SectionCommunity,
 } from "../organisms";
 
 //> Images
@@ -26,6 +27,7 @@ class PageRoot extends React.Component {
     return (
       <>
         <AboutPage/>
+        <SectionCommunity />
         <SectionContainer noBorder noBottom>
           <MDBFreeBird className="mt-3 mb-5">
             <MDBRow>
