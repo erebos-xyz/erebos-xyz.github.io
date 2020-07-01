@@ -4,6 +4,7 @@
 //import NavbarGlobal from "./NavbarGlobal";
 import AboutPage from "./SectionAbout";
 import SectionMotd from "./SectionMotd";
+import SectionSharingan from "./SectionSharingan";
 import SectionCommunity from "./SectionCommunity";
 
 export {
@@ -11,6 +12,7 @@ export {
   //FooterGlobal,
   AboutPage,
   SectionMotd,
+  SectionSharingan,
   SectionCommunity,
 };
 
