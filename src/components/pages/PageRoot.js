@@ -7,7 +7,6 @@ import React from "react";
 import { MDBFreeBird, MDBCol, MDBRow, MDBCardBody, MDBIcon } from "mdbreact";
 
 //> Components
-
 /**
  * SectionContainer: SectionContainer Molecule
  */
