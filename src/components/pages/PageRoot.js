@@ -8,8 +8,7 @@ import { MDBFreeBird, MDBCol, MDBRow, MDBCardBody, MDBIcon } from "mdbreact";
 
 //> Components
 /**
- * Footer: Global Footer
- * Navbar: Global navigation bar
+ * SectionContainer: SectionContainer Molecule
  */
 import { SectionContainer } from "../molecules";
 
@@ -17,7 +16,7 @@ import { SectionContainer } from "../molecules";
 // Logo of React
 import ReactLogo from "../../assets/content/React-icon.svg";
 
-class HomePage extends React.Component {
+class PageRoot extends React.Component {
   scrollToTop = () => window.scrollTo(0, 0);
   render() {
     return (
@@ -64,7 +63,7 @@ class HomePage extends React.Component {
   }
 }
 
-export default HomePage;
+export default PageRoot;
 
 /**
  * SPDX-License-Identifier: (EUPL-1.2)
