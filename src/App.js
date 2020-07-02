@@ -23,6 +23,7 @@ class App extends React.Component {
             <Routes />
           </main>
           {/*<FooterGlobal />*/}
+          <FooterGlobal />
         </div>
       </Router>
     );
