@@ -8,7 +8,6 @@ import SectionSharingan from "./SectionSharingan";
 import SectionCommunity from "./SectionCommunity";
 
 export {
-  //FooterGlobal,
   NavbarGlobal,
   FooterGlobal,
   AboutPage,
