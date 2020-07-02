@@ -47,6 +47,7 @@ class NavbarGlobal extends React.Component {
     );
 
     const { collapseID } = this.state;
+
     return (
       <div>
         <MDBNavbar color="agency-dark" dark expand="md" fixed="top" scrolling>
