@@ -258,7 +258,7 @@ class SectionSharingan extends React.PureComponent {
   }
 }
 
-export default HeaderFull;
+export default SectionSharingan;
 
 /**
  * SPDX-License-Identifier: (EUPL-1.2)
