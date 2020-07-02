@@ -146,7 +146,7 @@ const value = {
   },
 };
 
-class HeaderFull extends React.PureComponent {
+class SectionSharingan extends React.PureComponent {
   render() {
     console.log(value);
     return (
