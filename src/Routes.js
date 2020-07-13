@@ -6,7 +6,7 @@ import { Route, Switch } from "react-router-dom";
 
 //> Components
 /**
- * PageRoot: A basic template page
+ * HomePage: A basic template page
  */
 import { PageRoot } from "./components/pages";
 

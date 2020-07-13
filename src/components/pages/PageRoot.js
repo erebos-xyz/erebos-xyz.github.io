@@ -7,15 +7,31 @@ import React from "react";
 import { MDBFreeBird, MDBCol, MDBRow, MDBCardBody, MDBIcon } from "mdbreact";
 
 //> Components
+//> Components
 /**
- * SectionContainer: SectionContainer Molecule
+ * Footer: Global Footer
+ * Navbar: Global navigation bar
+ */
+import { AudioParty } from "../atoms";
+
+/**
+ * Footer: Global Footer
+ * Navbar: Global navigation bar
  */
 import { SectionContainer } from "../molecules";
 
+/**
+ * Footer: Global Footer
+ * Navbar: Global navigation bar
+ */
 import {
+  HeaderBanner,
+  HeaderFull,
+  HeaderSynthwave,
   SectionMotd,
   AboutPage,
   SectionSharingan,
+  SectionSpaceship,
   SectionCommunity,
 } from "../organisms";
 
@@ -28,9 +44,15 @@ class PageRoot extends React.Component {
   render() {
     return (
       <>
+        {/*<HeaderBanner />*/}
+        {/*<HeaderFull />*/}
+        <HeaderSynthwave />
+        {/*<SectionMotd />*/}
         <AboutPage/>
         <SectionMotd/>
         <SectionSharingan />
+        <AudioParty />
+        <SectionSpaceship />
         <SectionCommunity />
         <SectionContainer noBorder noBottom>
           <MDBFreeBird className="mt-3 mb-5">

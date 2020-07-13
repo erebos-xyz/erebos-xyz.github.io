@@ -13,10 +13,6 @@ import {
   MDBNavItem,
   MDBNavLink,
   MDBContainer,
-  MDBDropdown,
-  MDBDropdownToggle,
-  MDBDropdownItem,
-  MDBDropdownMenu,
 } from "mdbreact";
 
 // React Logo
@@ -53,7 +49,7 @@ class NavbarGlobal extends React.Component {
           <MDBContainer>
             <MDBNavbarBrand href="/" className="py-0 font-weight-bold">
               <ReactLogo style={{ height: "2.5rem", width: "2.5rem" }} />
-              <strong className="align-middle">Erebos</strong>
+              <strong className="align-middle">MDB React Template</strong>
             </MDBNavbarBrand>
             <MDBNavbarToggler
               onClick={this.toggleCollapse("mainNavbarCollapse")}
@@ -70,37 +66,7 @@ class NavbarGlobal extends React.Component {
                     to="/"
                     onClick={this.closeCollapse("mainNavbarCollapse")}
                   >
-                    <strong>About</strong>
-                  </MDBNavLink>
-                </MDBNavItem>
-                <MDBNavItem>
-                  <MDBDropdown>
-                    <MDBDropdownToggle nav caret>
-                      <span className="mr-2">Projects</span>
-                    </MDBDropdownToggle>
-                    <MDBDropdownMenu>
-                      <MDBDropdownItem href="#!">Ts3.party</MDBDropdownItem>
-                      <MDBDropdownItem href="#!">Nize.host</MDBDropdownItem>
-                      <MDBDropdownItem href="#!">Snek.at</MDBDropdownItem>
-                    </MDBDropdownMenu>
-                  </MDBDropdown>
-                </MDBNavItem>
-                <MDBNavItem>
-                  <MDBNavLink
-                    exact
-                    to="/"
-                    onClick={this.closeCollapse("mainNavbarCollapse")}
-                  >
-                    <strong>Members</strong>
-                  </MDBNavLink>
-                </MDBNavItem>
-                <MDBNavItem>
-                  <MDBNavLink
-                    exact
-                    to="/"
-                    onClick={this.closeCollapse("mainNavbarCollapse")}
-                  >
-                    <strong>Community</strong>
+                    <strong>Home</strong>
                   </MDBNavLink>
                 </MDBNavItem>
               </MDBNavbarNav>
