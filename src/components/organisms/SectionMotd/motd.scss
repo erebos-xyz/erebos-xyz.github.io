@@ -1,13 +1,76 @@
 /*section*motd**********************************************************************************************************/
+@media only screen and (min-width: 1440px) {
+  .fsynthtop {
+    z-index: 0;
+    top: 0px;
+    position: absolute;
+    height: 20%;
+    //height: 50%;
+    min-width: 100vw;
+    object-fit: fill;
+    transform:rotate(180deg);
+    filter: hue-rotate(20deg) drop-shadow(0px -12px 12px rgb(0, 185, 241));
+  }
+  
+  .fsynthbot {
+    z-index: 0;
+    bottom: 0px;
+    position: absolute;
+    height: 25%;
+    //height: 50%;
+    min-width: 100vw;
+    object-fit: fill;
+    filter: hue-rotate(292deg) saturate(180%) brightness(180%) contrast(84%) drop-shadow(0px -12px 12px rgb(233, 0, 241));
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .fsynthtop {
+    top: 0px;
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    object-fit: fill;
+    transform:rotate(180deg);
+    padding-right: 80px;
+    transform:rotate(180deg);
+    filter: hue-rotate(20deg);
+  }
+  
+  .fsynthbot {
+    bottom: 0px;
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    object-fit: fill;
+    filter: hue-rotate(290.5deg);
+  }
+}
+
 .motd{
-  z-index: 2;
+  z-index: 6;
 }
 
 .motd-s {
+  z-index: 6;
   display: flex;
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
-  min-height: 320px;
-  background-color: rgba(0, 0, 0, 0.63);
+  //min-height: 320px;
+  min-height: 380px;
+  background-color: rgba(29, 7, 39, 0.63);
+  background-image: url(../../../assets/content/motd/moon.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 26%; /* Resize the background image to cover the entire container */
+}
+
+.motdh {
+  font-size: 5.2em;
+  line-height: 2;
+  letter-spacing: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Noto Sans";
+  color: white;
 }
