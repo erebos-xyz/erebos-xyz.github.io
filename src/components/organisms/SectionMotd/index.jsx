@@ -26,7 +26,6 @@ class SectionMotd extends React.PureComponent {
             <div class="motdh">{value.motd}</div>
           </a>
         </section>
-        
         <video autoPlay muted loop className="fsynthtop">
           <source src={SynthwaveVID} type="video/mp4" />
         </video>
