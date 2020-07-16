@@ -15,7 +15,6 @@ import SynthwaveVID from "../../../assets/content/synthwave/ezgif.com-crop.mov";
 //> Data
 const value = {
   motd: "Sky's The Limit",
-  //motd: "",
 };
 
 class SectionMotd extends React.PureComponent {
