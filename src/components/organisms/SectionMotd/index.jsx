@@ -30,7 +30,6 @@ class SectionMotd extends React.PureComponent {
         <video autoPlay muted loop className="fsynthtop">
           <source src={SynthwaveVID} type="video/mp4" />
         </video>
-
         <video autoPlay muted loop className="fsynthbot">
           <source src={SynthwaveVID} type="video/mp4" />
         </video>
