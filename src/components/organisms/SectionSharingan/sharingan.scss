@@ -300,6 +300,27 @@
   }
 }
 
+
+#container2 {
+  position: relative;
+  display: inline;
+}
+
+.overlay2 {
+  position: absolute;
+  width: 400px;
+  margin-left: 1100px;
+  margin-top: -150px;
+}
+
+.overlay3 {
+  position: absolute;
+  width: 400px;
+  margin-right: 400px;
+  margin-left: -360px;
+  margin-top: -450px;
+  transform: scaleX(-1);
+}
 /*section*nyan-s*********************************************************************************************************/
 .nyan {
   min-height: 320px;
