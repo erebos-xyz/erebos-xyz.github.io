@@ -18,6 +18,9 @@ import KamiIMG from "../../../assets/content/team/kami.jpg";
 import TokoIMG from "../../../assets/content/team/toko.jpg";
 import ChrisIMG from "../../../assets/content/team/chris.jpg";
 import SaharaIMG from "../../../assets/content/team/sahara.jpg";
+import sculpture1 from "../../../assets/content/sharingan/whiteglasses.png";
+import sculpture2 from "../../../assets/content/sharingan/darkglasses.png";
+
 
 //> Data
 const value = {
@@ -160,6 +163,10 @@ class SectionSharingan extends React.PureComponent {
                     <img src={Mitsudomoe1IMG} alt="mitsudomoe1" />
                   </MDBBox>
                 </MDBBox>
+                <div class="sculpture-overlay">
+                  <img class="sculpture-img1" src={sculpture1}></img>
+                  <img class="sculpture-img2" src={sculpture2}></img>
+                </div>
                 <MDBBox class="lorem">{value.sharingan.sharingan_1}</MDBBox>
               </MDBBox>
             </MDBBox>
@@ -170,6 +177,10 @@ class SectionSharingan extends React.PureComponent {
                     <img src={Mitsudomoe2IMG} alt="mitsudomoe2" />
                   </MDBBox>
                 </MDBBox>
+                <div class="sculptures-overlay">
+                  <img class="sculpture-img1" src={sculpture1}></img>
+                  <img class="sculpture-img2" src={sculpture2}></img>
+                </div>
                 <MDBBox class="lorem">{value.sharingan.sharingan_2}</MDBBox>
               </MDBBox>
             </MDBBox>
@@ -180,6 +191,10 @@ class SectionSharingan extends React.PureComponent {
                     <img src={Mitsudomoe3IMG} alt="mitsudomoe3" />
                   </MDBBox>
                 </MDBBox>
+                <div class="sculptures-overlay">
+                  <img class="sculpture-img1" src={sculpture1}></img>
+                  <img class="sculpture-img2" src={sculpture2}></img>
+                </div>
                 <MDBBox class="lorem">{value.sharingan.sharingan_3}</MDBBox>
               </MDBBox>
             </MDBBox>

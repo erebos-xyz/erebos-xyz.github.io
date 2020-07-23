@@ -270,19 +270,22 @@
 .iris-1,
 .mitsudomoe-1 img {
   //border-color: #6b6b6b;
-  border-color: rgb(78, 2, 78);
+  border-color: rgb(184, 22, 224);
+  background-image: linear-gradient(to right, rgb(184, 22, 224), rgb(60, 231, 243));
 }
 
 .iris-2,
 .mitsudomoe-2 img {
   //border-color: #ffffff;
-  border-color: #260327;
+  border-color: rgb(41, 215, 228);
+  background-image: radial-gradient(circle, rgb(60, 231, 243), rgb(184, 22, 224), rgba(184, 22, 224, 0.185));
 }
 
 .iris-3,
 .mitsudomoe-3 img {
   //border-color: #a80000;
-  border-color:  #19031a;
+  border-color:  rgb(184, 22, 224);
+  background-image: linear-gradient(to right, rgb(184, 22, 224), rgb(60, 231, 243));
 }
 
 .mitsudomoe {
@@ -295,6 +298,27 @@
   img:hover {
     animation: rotate 700ms ease-in-out forwards;
   }
+}
+
+.sculptures-overlay {
+  position: relative;
+  display: inline;
+}
+
+.sculpture-img1 {
+  position: absolute;
+  width: 400px;
+  margin-left: 1100px;
+  margin-top: -150px;
+}
+
+.sculpture-img2 {
+  position: absolute;
+  width: 400px;
+  margin-right: 400px;
+  margin-left: -360px;
+  margin-top: -450px;
+  transform: scaleX(-1);
 }
 
 /*section*nyan-s*********************************************************************************************************/
