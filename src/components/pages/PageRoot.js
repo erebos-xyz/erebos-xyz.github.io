@@ -34,7 +34,6 @@ class PageRoot extends React.Component {
         <SectionMotd />
         <SectionSharingan />
         <SectionCommunity />
-        <SectionSharingan/>
         <SectionContainer noBorder noBottom>
           <MDBFreeBird className="mt-3 mb-5">
             <MDBRow>
