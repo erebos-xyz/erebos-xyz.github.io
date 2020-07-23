@@ -162,9 +162,9 @@ class SectionSharingan extends React.PureComponent {
                     <img src={Mitsudomoe1IMG} alt="mitsudomoe1" />
                   </MDBBox>
                 </MDBBox>
-                <div id="container2">
-                  <img class="overlay2" src={sculpture1}></img>
-                  <img class="overlay3" src={sculpture2}></img>
+                <div class="sculptures">
+                  <img class="sculpture-overlay1" src={sculpture1}></img>
+                  <img class="sculpture-overlay2" src={sculpture2}></img>
                 </div>
                 <MDBBox class="lorem">{value.sharingan.sharingan_1}</MDBBox>
               </MDBBox>
@@ -176,9 +176,9 @@ class SectionSharingan extends React.PureComponent {
                     <img src={Mitsudomoe2IMG} alt="mitsudomoe2" />
                   </MDBBox>
                 </MDBBox>
-                <div id="container2">
-                  <img class="overlay2" src={sculpture1}></img>
-                  <img class="overlay3" src={sculpture2}></img>
+                <div class="sculptures">
+                  <img class="sculpture-overlay1" src={sculpture1}></img>
+                  <img class="sculpture-overlay2" src={sculpture2}></img>
                 </div>
                 <MDBBox class="lorem">{value.sharingan.sharingan_2}</MDBBox>
               </MDBBox>
@@ -190,9 +190,9 @@ class SectionSharingan extends React.PureComponent {
                     <img src={Mitsudomoe3IMG} alt="mitsudomoe3" />
                   </MDBBox>
                 </MDBBox>
-                <div id="container2">
-                  <img class="overlay2" src={sculpture1}></img>
-                  <img class="overlay3" src={sculpture2}></img>
+                <div class="sculptures">
+                  <img class="sculpture-overlay1" src={sculpture1}></img>
+                  <img class="sculpture-overlay2" src={sculpture2}></img>
                 </div>
                 <MDBBox class="lorem">{value.sharingan.sharingan_3}</MDBBox>
               </MDBBox>
