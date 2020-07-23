@@ -10,7 +10,7 @@ import { MDBContainer, MDBRow, MDBCol, MDBView, MDBBox } from "mdbreact";
 import "./motd.scss";
 
 //> Video
-import SynthwaveVID from "../../../assets/content/synthwave/ezgif.com-crop.mov";
+import SynthwaveVID from "../../../assets/content/synthwave/synthwavemov.mov";
 
 //> Data
 const value = {
