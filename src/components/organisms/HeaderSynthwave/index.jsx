@@ -43,7 +43,7 @@ import { ReactComponent as PinkMountainVIMG } from "../../../assets/content/synt
 import { ReactComponent as PurpleMountainVIMG } from "../../../assets/content/synthwave/purple_mountain.svg";
 import { ReactComponent as DarkMountainVIMG } from "../../../assets/content/synthwave/dark_mountain.svg";
 
-import SynthwaveVID from "../../../assets/content/synthwave/ezgif.com-crop.mov";
+import SynthwaveVID from "../../../assets/content/synthwave/synthwavemov.mov";
 
 import "./site-header.scss";
 
