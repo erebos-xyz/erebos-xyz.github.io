@@ -10,12 +10,11 @@ import { MDBContainer, MDBRow, MDBCol, MDBView, MDBBox } from "mdbreact";
 import "./motd.scss";
 
 //> Video
-import SynthwaveVID from "../../../assets/content/synthwave/ezgif.com-crop.mov";
+import SynthwaveVID from "../../../assets/content/synthwave/synthwave.mov";
 
 //> Data
 const value = {
   motd: "Sky's The Limit",
-  //motd: "",
 };
 
 class SectionMotd extends React.PureComponent {
@@ -27,11 +26,9 @@ class SectionMotd extends React.PureComponent {
             <div class="motdh">{value.motd}</div>
           </a>
         </section>
-        
         <video autoPlay muted loop className="fsynthtop">
           <source src={SynthwaveVID} type="video/mp4" />
         </video>
-
         <video autoPlay muted loop className="fsynthbot">
           <source src={SynthwaveVID} type="video/mp4" />
         </video>

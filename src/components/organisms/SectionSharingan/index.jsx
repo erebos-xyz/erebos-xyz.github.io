@@ -21,6 +21,7 @@ import SaharaIMG from "../../../assets/content/team/sahara.jpg";
 import sculpture1 from "../../../assets/content/sharingan/whiteglasses.png";
 import sculpture2 from "../../../assets/content/sharingan/darkglasses.png";
 
+
 //> Data
 const value = {
   sharingan: {
