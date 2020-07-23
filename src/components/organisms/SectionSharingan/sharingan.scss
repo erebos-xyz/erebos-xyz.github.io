@@ -300,20 +300,19 @@
   }
 }
 
-
-.sculptures {
+.sculptures-overlay {
   position: relative;
   display: inline;
 }
 
-.sculpture-overlay1 {
+.sculpture-img1 {
   position: absolute;
   width: 400px;
   margin-left: 1100px;
   margin-top: -150px;
 }
 
-.sculpture-overlay2 {
+.sculpture-img2 {
   position: absolute;
   width: 400px;
   margin-right: 400px;
@@ -321,6 +320,7 @@
   margin-top: -450px;
   transform: scaleX(-1);
 }
+
 /*section*nyan-s*********************************************************************************************************/
 .nyan {
   min-height: 320px;
