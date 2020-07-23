@@ -3,6 +3,7 @@
 import FooterGlobal from "./FooterGlobal";
 import NavbarGlobal from "./NavbarGlobal";
 import AboutPage from "./SectionAbout";
+import HeaderSynthwave from "./HeaderSynthwave";
 import SectionMotd from "./SectionMotd";
 import SectionSharingan from "./SectionSharingan";
 import SectionCommunity from "./SectionCommunity";
@@ -10,6 +11,7 @@ import SectionCommunity from "./SectionCommunity";
 export {
   NavbarGlobal,
   FooterGlobal,
+  HeaderSynthwave,
   AboutPage,
   SectionMotd,
   SectionSharingan,

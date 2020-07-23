@@ -13,6 +13,7 @@ import { MDBFreeBird, MDBCol, MDBRow, MDBCardBody, MDBIcon } from "mdbreact";
 import { SectionContainer } from "../molecules";
 
 import {
+  HeaderSynthwave,
   SectionMotd,
   AboutPage,
   SectionSharingan,
@@ -28,8 +29,9 @@ class PageRoot extends React.Component {
   render() {
     return (
       <>
-        <AboutPage/>
-        <SectionMotd/>
+        <HeaderSynthwave />
+        <AboutPage />
+        <SectionMotd />
         <SectionSharingan />
         <SectionCommunity />
         <SectionContainer noBorder noBottom>
