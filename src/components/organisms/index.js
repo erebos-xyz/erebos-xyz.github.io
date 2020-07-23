@@ -3,12 +3,14 @@
 //import FooterGlobal from "./FooterGlobal";
 //import NavbarGlobal from "./NavbarGlobal";
 import AboutPage from "./SectionAbout";
+import HeaderSynthwave from "./HeaderSynthwave";
 import SectionMotd from "./SectionMotd";
 import SectionCommunity from "./SectionCommunity";
 
 export {
   //NavbarGlobal,
   //FooterGlobal,
+  HeaderSynthwave,
   AboutPage,
   SectionMotd,
   SectionCommunity,
