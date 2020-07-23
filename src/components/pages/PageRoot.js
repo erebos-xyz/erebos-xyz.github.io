@@ -16,6 +16,7 @@ import {
   HeaderSynthwave,
   SectionMotd,
   AboutPage,
+  SectionSharingan,
   SectionCommunity,
 } from "../organisms";
 
@@ -28,10 +29,11 @@ class PageRoot extends React.Component {
   render() {
     return (
       <>
-        <HeaderSynthwave/>
-        <AboutPage/>
-        <SectionMotd/>
-        <SectionCommunity/>
+        <HeaderSynthwave />
+        <AboutPage />
+        <SectionMotd />
+        <SectionSharingan />
+        <SectionCommunity />
         <SectionContainer noBorder noBottom>
           <MDBFreeBird className="mt-3 mb-5">
             <MDBRow>

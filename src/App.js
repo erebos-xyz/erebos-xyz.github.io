@@ -18,11 +18,11 @@ class App extends React.Component {
     return (
       <Router>
         <div className="flyout">
-          {/*<NavbarGlobal />*/}
+          <NavbarGlobal />
           <main>
             <Routes />
           </main>
-          {/*<FooterGlobal />*/}
+          <FooterGlobal />
         </div>
       </Router>
     );
