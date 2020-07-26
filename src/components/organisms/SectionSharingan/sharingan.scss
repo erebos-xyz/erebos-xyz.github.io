@@ -383,7 +383,7 @@
             max-width: 210px;
             img {
               top: 0px;
-              border-radius: 50%;
+              //border-radius: 50%;
               width: 100%;
               height: auto;
               // don't think about the line below
@@ -422,6 +422,8 @@
                 }
                 p {
                   margin-top: 50px;
+                  color: black;
+                  font-weight: normal;
                 }
               }
               .ifront {
