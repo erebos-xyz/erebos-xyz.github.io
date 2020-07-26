@@ -356,7 +356,10 @@
 
 /*section*theteam-s*********************************************************************************************************/
 .theteam-s {
-  background-color: rgb(0, 57, 123);
+  //background-color: rgb(188, 54, 201);
+  background-image: url(../../../assets/content/team/team.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
   .members {
     display: flex;
     justify-content: space-around;
