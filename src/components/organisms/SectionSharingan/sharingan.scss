@@ -413,9 +413,12 @@
                 border-radius: 50%;
                 -webkit-backface-visibility: hidden;
                 backface-visibility: hidden;
-                h3 {
+                .team-h {
                   position: absolute;
                   top: 0px;
+                  color: white;
+                  font-weight: bold;
+                  font-size: 1.8em;
                 }
                 p {
                   margin-top: 50px;
