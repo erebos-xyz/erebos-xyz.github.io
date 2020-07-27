@@ -227,7 +227,9 @@
 }
 
 .admins-s {
-  background-color: #2a2a2a;
+  background-color: rgb(51, 105, 130);
+  background-image: url(../../../assets/content/community/nyaa.png);
+  background-repeat: no-repeat;
   .members {
     display: flex;
     justify-content: space-between;
