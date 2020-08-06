@@ -80,9 +80,11 @@ class SectionCommunity extends React.PureComponent {
       <article id="community" class="community">
         {value.admins.show_admins && (
           <MDBBox tag="section" id="admins" class="community-s admins-s">
+            <div class="sizeheader">
             <header class="admins-h">
-              <h3>{value.admins.admins_titel}</h3>
+              <div class="adminheader">{value.admins.admins_titel}</div>
             </header>
+            </div>
             <article class="members">
               {value.admins.members.map((mrow, i) => {
                 return (

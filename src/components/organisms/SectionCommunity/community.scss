@@ -8,7 +8,7 @@
     .admins-h {
       display: flex;
       align-items: center;
-      border-bottom: solid #a80000 1px;
+      border-bottom: solid #c97095 2px;
       width: 100vw;
       height: 100px;
     }
@@ -107,16 +107,18 @@
 
 @media only screen and (min-width: 1440px) {
   .admins-s {
-    flex-direction: row;
+    flex-direction: column;
     .admins-h {
       display: flex;
       align-items: center;
-      border-right: solid #a80000 1px;
-      width: 300px;
-      height: 70vh;
+      border-bottom: solid #c97095 2px;
+      width: 50vw;
+      height: 100px;
     }
     .members {
       flex-direction: column;
+      //margin-left: 400px;
+      margin-bottom: 250px;
       .mrow {
         flex-direction: row;
         .member {
@@ -226,14 +228,27 @@
   align-items: center;
 }
 
+.sizeheader {
+  margin-left: 600px;
+}
+
+.adminheader {
+  color: white;
+  font-size: 3.2em;
+  font-weight: bold;
+}
+
 .admins-s {
-  background-color: #2a2a2a;
+  background-color: rgb(51, 105, 130);
+  background-image: url(../../../assets/content/community/nyaa.png);
+  background-repeat: no-repeat;
   .members {
     display: flex;
     justify-content: space-between;
     align-items: center;
     min-height: calc(100vh - 320px);
-    width: 100%;
+    width: 60%;
+    margin-left: 600px;
     .mrow {
       display: flex;
       justify-content: space-around;
