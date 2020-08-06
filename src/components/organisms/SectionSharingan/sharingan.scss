@@ -356,7 +356,10 @@
 
 /*section*theteam-s*********************************************************************************************************/
 .theteam-s {
-  background-color: rgb(0, 57, 123);
+  //background-color: rgb(188, 54, 201);
+  background-image: url(../../../assets/content/team/team.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
   .members {
     display: flex;
     justify-content: space-around;
@@ -383,7 +386,7 @@
             max-width: 210px;
             img {
               top: 0px;
-              border-radius: 50%;
+              //border-radius: 50%;
               width: 100%;
               height: auto;
               // don't think about the line below
@@ -413,12 +416,17 @@
                 border-radius: 50%;
                 -webkit-backface-visibility: hidden;
                 backface-visibility: hidden;
-                h3 {
+                .team-h {
                   position: absolute;
                   top: 0px;
+                  color: white;
+                  font-weight: bold;
+                  font-size: 1.8em;
                 }
                 p {
                   margin-top: 50px;
+                  color: black;
+                  font-weight: normal;
                 }
               }
               .ifront {

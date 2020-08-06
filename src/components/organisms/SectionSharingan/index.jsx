@@ -245,7 +245,7 @@ class SectionSharingan extends React.PureComponent {
                               />
                             </MDBBox>
                             <MDBBox class="iback">
-                              <h3>{member.value.name}</h3>
+                              <div class="team-h">{member.value.name}</div>
                               <MDBBox tag="p">{member.value.description}</MDBBox>
                             </MDBBox>
                           </MDBBox>
