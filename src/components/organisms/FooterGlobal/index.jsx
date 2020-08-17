@@ -4,52 +4,51 @@ import React from "react";
 
 //> MDB
 // "Material Design for Bootstrap" is a great UI design framework
-import { MDBFooter, MDBRow, MDBCol, MDBContainer } from "mdbreact";
+import { MDBFooter, MDBRow, MDBCol, MDBContainer, MDBIcon } from "mdbreact";
+
+//> CSS
+import "./footer.scss";
 
 class FooterGlobal extends React.Component {
   render() {
     return (
-      <MDBFooter color="agency-dark" className="font-small pt-4 mt-4">
+      <MDBFooter color="elegant-color" className="font-small pt-4 mt-4">
         <MDBContainer className="text-center text-md-left">
           <MDBRow>
-            <MDBCol md="6">
-              <h5 className="title">Footer Content</h5>
-              <p>
-                Here you can use rows and columns here to organize your footer
-                content.
-              </p>
-            </MDBCol>
-            <MDBCol md="3">
-              <h5 className="title">Links</h5>
+            <div class="follows">
+              <div class="followh">Follow us on:</div>
+            </div>
+            <MDBCol md="2">
+              <div class="followt">
+                Github
+                <a href="#!"><MDBIcon fab icon="github" size="lg" className="cyan-text ml-2"/></a>
+              </div>
               <ul>
                 <li className="list-unstyled">
-                  <a href="#!">Link 1</a>
+                <a href="https://github.com/kleberbaum">kleberbaum</a>
                 </li>
                 <li className="list-unstyled">
-                  <a href="#!">Link 2</a>
+                  <a href="https://github.com/petschna">petschna</a>
                 </li>
                 <li className="list-unstyled">
-                  <a href="#!">Link 3</a>
-                </li>
-                <li className="list-unstyled">
-                  <a href="#!">Link 4</a>
+                  <a href="https://github.com/petute">petute</a>
                 </li>
               </ul>
             </MDBCol>
-            <MDBCol md="3">
-              <h5 className="title">Links</h5>
+            <MDBCol md="2">
+              <div class="followt">
+                Github
+                <a href="#!"><MDBIcon fab icon="github" size="lg" className="cyan-text ml-2"/></a>
+              </div>
               <ul>
                 <li className="list-unstyled">
-                  <a href="#!">Link 1</a>
+                <a href="#!">kleberbaum</a>
                 </li>
                 <li className="list-unstyled">
-                  <a href="#!">Link 2</a>
+                  <a href="#!">petschna</a>
                 </li>
                 <li className="list-unstyled">
-                  <a href="#!">Link 3</a>
-                </li>
-                <li className="list-unstyled">
-                  <a href="#!">Link 4</a>
+                  <a href="#!">petute</a>
                 </li>
               </ul>
             </MDBCol>
@@ -64,7 +63,7 @@ class FooterGlobal extends React.Component {
               rel="noopener noreferrer"
             >
               {" "}
-              Florian Kleber{" "}
+              Emailwerk{" "}
             </a>
           </MDBContainer>
         </div>
